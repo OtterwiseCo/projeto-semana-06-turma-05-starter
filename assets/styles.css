@@ -4,11 +4,11 @@ body {
   padding: 0;
   border: none;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-  background-image: url('./images/header-bg.png');
+  background-image: url("./images/header-bg.png");
   background-position: right top;
   background-repeat: no-repeat;
   height: 100vh;
@@ -131,4 +131,96 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: #5d6970;
+}
+
+/* iniciando Segunda etapa css p/ Alessandro Carra */
+
+.price {
+  background-color: #e7ecff;
+}
+.price-conteiner {
+  height: 569px;
+  top: 1852px;
+  left: -4px;
+  margin: 0;
+  padding: 0;
+  top: 3607.39px;
+  left: -620.29px;
+  opacity: 100%;
+  background-color: #e7ecff;
+}
+
+.price-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.price-title {
+  font-size: 36px;
+  font-family: roboto;
+  font-style: normal;
+  line-height: 48px;
+  color: #091133;
+}
+.price-description {
+  display: flex;
+  margin: 0;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  font-family: roboto;
+  width: 600px;
+  height: 100px;
+  top: 64px;
+  color: #6f7cb2;
+}
+.price-value {
+  display: flex;
+  margin: 0;
+  width: 85px;
+  height: 60px;
+  font-size: 50px;
+  align-items: center;
+  font-family: roboto;
+  font-style: normal;
+  color: #222f65;
+}
+.price-subnick-value {
+  position: flex;
+  height: 26px;
+  left: 545px;
+  right: 545px;
+  top: 100.82px;
+  text-align: center;
+  font-family: roboto;
+  padding-right: -15px;
+  padding-bottom: 30px;
+  color: #37447e;
+}
+.price-subnick {
+  position: flex;
+  height: 30px;
+  left: 545px;
+  right: 545px;
+  top: 100.82px;
+  text-align: center;
+  font-family: roboto;
+  padding-right: -15px;
+  padding-bottom: 0px;
+  color: #37447e;
+}
+.price-button {
+  position: flex;
+  height: 20px;
+  width: 189px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: -0.19px;
+  background: #111b47;
+  border: #111b47;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 14px;
 }
